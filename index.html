@@ -174,6 +174,12 @@
             margin-top: 3rem;
             font-size: 0.9rem;
         }
+        .course-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
         @media (max-width: 768px) {
             .course-grid {
                 grid-template-columns: 1fr;
@@ -195,98 +201,99 @@
 
     <!-- ===== YOUR ORIGINAL CONTENT BELOW (COMPLETELY UNCHANGED) ===== -->
     <main>
-        <!-- Finance Courses -->
-        <div class="category">
-            <h2 class="category-title">Finance Courses</h2>
-            <div class="course-grid">
-                <div class="course-card">
-                    <div class="course-img finance-img">💰</div>
-                    <div class="course-info">
-                        <h3 class="course-name">Wealth Building 101</h3>
-                        <p class="course-desc">Master personal finance strategies used by millionaires</p>
-                        <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_FINANCE1'">Enroll Free</button>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <div class="course-img finance-img">📊</div>
-                    <div class="course-info">
-                        <h3 class="course-name">Stock Market Pro</h3>
-                        <p class="course-desc">Learn technical analysis and portfolio management</p>
-                        <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_FINANCE2'">Enroll Free</button>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <div class="course-img finance-img">💎</div>
-                    <div class="course-info">
-                        <h3 class="course-name">Crypto Fundamentals</h3>
-                        <p class="course-desc">Understand blockchain and smart investing</p>
-                        <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_FINANCE3'">Enroll Free</button>
-                    </div>
-                </div>
+       <!-- Finance Courses -->
+<div class="category">
+    <h2 class="category-title">Finance Courses</h2>
+    <div class="course-grid">
+        <div class="course-card">
+            <img src="./assets/bsns.jpg" alt="Wealth Building" class="course-img finance-img">
+            <div class="course-info">
+                <h3 class="course-name">Wealth Building 101</h3>
+                <p class="course-desc">Master personal finance strategies used by millionaires</p>
+                <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_FINANCE1'">Enroll Free</button>
             </div>
         </div>
+        <div class="course-card">
+            <img src="./assets/stock_market.jpg" alt="Stock Market" class="course-img finance-img">
+            <div class="course-info">
+                <h3 class="course-name">Stock Market Pro</h3>
+                <p class="course-desc">Learn technical analysis and portfolio management</p>
+                <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_FINANCE2'">Enroll Free</button>
+            </div>
+        </div>
+        <div class="course-card">
+            <img src="./assets/crypto.jpg" alt="Crypto" class="course-img finance-img">
+            <div class="course-info">
+                <h3 class="course-name">Crypto Fundamentals</h3>
+                <p class="course-desc">Understand blockchain and smart investing</p>
+                <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_FINANCE3'">Enroll Free</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-        <!-- Marketing Courses -->
-        <div class="category">
-            <h2 class="category-title">Marketing Courses</h2>
-            <div class="course-grid">
-                <div class="course-card">
-                    <div class="course-img marketing-img">📱</div>
-                    <div class="course-info">
-                        <h3 class="course-name">Social Media Mastery</h3>
-                        <p class="course-desc">Grow your brand on all platforms exponentially</p>
-                        <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_MARKETING1'">Enroll Free</button>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <div class="course-img marketing-img">🔍</div>
-                    <div class="course-info">
-                        <h3 class="course-name">SEO That Works</h3>
-                        <p class="course-desc">Rank #1 on Google with proven techniques</p>
-                        <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_MARKETING2'">Enroll Free</button>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <div class="course-img marketing-img">📈</div>
-                    <div class="course-info">
-                        <h3 class="course-name">Facebook Ads Expert</h3>
-                        <p class="course-desc">Create high-converting ad campaigns</p>
-                        <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_MARKETING3'">Enroll Free</button>
-                    </div>
-                </div>
+<!-- Marketing Courses -->
+<div class="category">
+    <h2 class="category-title">Marketing Courses</h2>
+    <div class="course-grid">
+        <div class="course-card">
+            <img src="./assets/social_media.jpg" alt="Social Media" class="course-img marketing-img">
+            <div class="course-info">
+                <h3 class="course-name">Social Media Mastery</h3>
+                <p class="course-desc">Grow your brand on all platforms exponentially</p>
+                <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_MARKETING1'">Enroll Free</button>
             </div>
         </div>
+        <div class="course-card">
+            <img src="./assets/seo.jpg" alt="SEO" class="course-img marketing-img">
+            <div class="course-info">
+                <h3 class="course-name">SEO That Works</h3>
+                <p class="course-desc">Rank #1 on Google with proven techniques</p>
+                <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_MARKETING2'">Enroll Free</button>
+            </div>
+        </div>
+        <div class="course-card">
+            <img src="./assets/fb.jpg" alt="Facebook Ads" class="course-img marketing-img">
+            <div class="course-info">
+                <h3 class="course-name">Facebook Ads Expert</h3>
+                <p class="course-desc">Create high-converting ad campaigns</p>
+                <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_MARKETING3'">Enroll Free</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-        <!-- Tech Courses -->
-        <div class="category">
-            <h2 class="category-title">Tech Courses</h2>
-            <div class="course-grid">
-                <div class="course-card">
-                    <div class="course-img tech-img">🐍</div>
-                    <div class="course-info">
-                        <h3 class="course-name">Python Programming</h3>
-                        <p class="course-desc">From zero to building real applications</p>
-                        <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_TECH1'">Enroll Free</button>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <div class="course-img tech-img">🤖</div>
-                    <div class="course-info">
-                        <h3 class="course-name">AI Fundamentals</h3>
-                        <p class="course-desc">Understand machine learning and neural networks</p>
-                        <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_TECH2'">Enroll Free</button>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <div class="course-img tech-img">💻</div>
-                    <div class="course-info">
-                        <h3 class="course-name">Web Dev Bootcamp</h3>
-                        <p class="course-desc">HTML, CSS, JavaScript - build modern sites</p>
-                        <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_TECH3'">Enroll Free</button>
-                    </div>
-                </div>
+<!-- Tech Courses -->
+<div class="category">
+    <h2 class="category-title">Tech Courses</h2>
+    <div class="course-grid">
+        <div class="course-card">
+            <img src="./assets/python.jpg" alt="Python" class="course-img tech-img">
+            <div class="course-info">
+                <h3 class="course-name">Python Programming</h3>
+                <p class="course-desc">From zero to building real applications</p>
+                <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_TECH1'">Enroll Free</button>
             </div>
         </div>
+        <div class="course-card">
+            <img src="./assets/ai.jpg" alt="AI" class="course-img tech-img">
+            <div class="course-info">
+                <h3 class="course-name">AI Fundamentals</h3>
+                <p class="course-desc">Understand machine learning and neural networks</p>
+                <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_TECH2'">Enroll Free</button>
+            </div>
+        </div>
+        <div class="course-card">
+            <img src="./assets/boot_camp.jpg" alt="Web Dev" class="course-img tech-img">
+            <div class="course-info">
+                <h3 class="course-name">Web Dev Bootcamp</h3>
+                <p class="course-desc">HTML, CSS, JavaScript - build modern sites</p>
+                <button class="btn-enroll" onclick="window.location.href='YOUR_CPA_TECH3'">Enroll Free</button>
+            </div>
+        </div>
+    </div>
+</div>
+
     </main>
 
     <footer>
